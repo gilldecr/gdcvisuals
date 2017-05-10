@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
-    <title>GDCvisuals-Home</title>
+    <title>GDCvisuals-Diensten</title>
     <link rel="stylesheet" href="css/main.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Nunito:300,400|Sarala:400');
@@ -13,40 +13,55 @@
     <div class="container">
         <img id="logo" src="assets/logo.png" alt="logo">
         <ul id="navmenu">
-            <li><a id="eersteitemlinks" href="index.html"><u>Home</u></a></li>
+            <li><a id="eersteitemlinks" href="index.html">Home</a></li>
             <li><a href="diensten.html">Diensten</a></li>
             <li id="hoofditem"><a href="portfolio.html">Portfolio</a></li>
             <li><a href="over_ons.html">Over ons</a></li>
-            <li id="hoofditem"><a href="contact.html">Contact <span style="float:right;"> &#9660; </span></a>
+            <li id="hoofditem"><a href="contact.html"><u>Contact</u><span style="float:right;"> &#9660; </span></a>
                 <ul class="sub1">
                         <li><a class="hoofditemsub1" href="#">Offerte</a></li>
                 </ul>
         </ul>
         <ul id="navmenu_mobile">
-            <li><a class= "active" href="index.html"><u>Home</u></a></li>
+            <li><a class= "active" href="index.html">Home</a></li>
             <li><a href="diensten.html">Diensten</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="over_ons.html">Over ons</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html"><u>Contact</u></a></li>
         </ul>
-        <img id="banner" src="assets/check_us_out_banner.png" alt="banner">
-        <div class ="grid_row_icons">
-            <div class="icons_home">
-                <img id="icon" src="assets/smiley_icon.png" alt="smiley">
-                <p id="icon_text">We zorgen ervoor dat elke klant geniet van een goede service en met een brede glimlach vertrekt.
-                </p>
+        <h1 id="titel">Contact</h1>
+        <div class ="grid_contact">
+            <div class ="grid_column_left_contact">
+                <form>
+                    <b>Bedrijf</b><br>
+                    <input id="input_contact" type="text" name="bedrijf"><br>
+                    <b>Voornaam</b><br>
+                    <input id="input_contact" type="text" name="bedrijf"><br>
+                    <b>Naam</b><br>
+                    <input id="input_contact" type="text" name="bedrijf"><br>
+                    <b>Email</b><br>
+                    <input id="input_contact" type="text" name="bedrijf"><br>
+                    <b>Nummer</b><br>
+                    <input id="input_contact" type="text" name="bedrijf"><br>
+                </form>
             </div>
-            <div class="icons_home">
-                <img id="icon" src="assets/dollar_icon.png" alt="smiley">
-                <p id="icon_text">Afhankelijk van jouw budget zullen we altijd streven naar het beste resultaat.
-                Zo kan iedereen bij ons terecht.
-                </p>  
+            <div class ="grid_column_right_contact">
+                <form>
+                    <b>Boodschap</b><br>
+                    <textarea id="input_boodschap" type="text" name="bedrijf" rows=14>Typ hier jouw boodschap...</textarea>
+                </form>
             </div>
-            <div class="icons_home">
-                <img id="icon" src="assets/clock_icon.png" alt="smiley">
-                <p id="icon_text">We werken efficiënt en doelgericht zodat we zo snel mogelijk een resultaat kunnen voorleggen aan de klant.
-                </p>
-            </div>
+        </div>
+        <button id="verstuur_button" type="button">Verstuur</button>
+        <h1 id="titel">Informatie</h1>
+        <div class ="grid_column_left_contact">
+            <ul>
+                <li>Fictielaan 8 8700 Tielt</li>
+                <li>051/ 84 87 52</li>
+                <li>gilles.decraene@gdcvisuals.be</li>
+                <li>johan.verstraete@gdcvisuals.be</li>
+                <li>kelly.samir@gdcvisuals.be</li>
+            </ul>
         </div>
         <div class ="social_media">
             <div class="black_bar">
