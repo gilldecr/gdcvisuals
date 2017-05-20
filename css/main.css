@@ -321,6 +321,31 @@ body{
 .grid_column_left_contact > ul > li{
     list-style-type: none;
 }
+#map{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+#offerte_zin{
+    float: left;
+    padding-left: 50px;
+}
+#link_text{
+    color: black;
+    text-decoration: underline;
+}
+
+/*=====OFFERTE=====*/
+#footnote{
+    display: block;
+    float: left;
+    font-size: 8pt;
+}
+
+
+
 
 /*=====RESPONSIVE=====*/
 
@@ -385,6 +410,13 @@ body{
     #titel{
     padding-left: 20px;
     }
+/*===== CONTACT=====*/
+    #offerte_zin{
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 30px;
+    }
 }
 
 @media screen and (max-width:1065px){
@@ -414,6 +446,10 @@ body{
         float: left;
         width: 100%;
         margin-bottom: 20px;
+    }
+/*===== OFFERTE =====*/
+    #footnote{
+    padding-left: 20px;
     }
 }
 
